@@ -25,12 +25,14 @@ body {
 }
 h1 {
 	text-align:center;
+	text-decoration:underline overline dotted;
+	letter-spacing:5px;
 
 }
 h2 {
 	width:80%;
 	color:#153930;
-	background-color:#FDFDFD;
+	background-color:#E0DDDC;
 	text-align:center;
 	margin:10% auto;
 	font-size:14px;
@@ -47,11 +49,53 @@ h3 {
 	color:#153930;
 	text-align:center;
 	padding-top:5px;
+	margin-top:100px;
 
 }
 h4 {
 	font-size:12px;
-	font-style: italic;
+	text-align:center;
+	margin-bottom:0px;
+	margin-top:35px;  
+}
+h5 {
+	text-decoration: underline overline dotted;
+	font-size:12px;
+	text-align:center;
+}
+p {
+	text-align: center;
+	line-height:2;
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+footer {
+	height:175px;
+	width:100%;
+	background-color:#E0DDDC;
+}
+span {
+	color:blue;
+
+}
+.contact li{
+	padding-left: 30px;
+}
+.disclaim {
+	text-align: center;
+	margin-top: 60px;
+	color:black;
+	font-weight: bolder;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.education li {
+	list-style:none;
+	text-align: center;
+	list-style-position:outside;
+}
+.education ul {
+	padding-left:10px;
 }
 .name {
 	height:100px;
@@ -60,7 +104,7 @@ h4 {
 	background-color:#FDFDFD;
 	padding:20% 10%;
 	max-width:800px;
-	height:1500px;
+	height:auto;
 }
 
 .grid-row {
@@ -79,15 +123,16 @@ h4 {
 	height:auto;
 }
 .side {
-	height:100%;
+	height:auto;
 	float:left;
 	color: black;
-	background-color:#E0DDDC;
+	background-color:white;
 
 }
 .main {
 	margin:5% 10%;
 	height:auto;
+	max-width: 1000px;
 }
 .grid-third: {
 	height:100%;
@@ -102,6 +147,7 @@ h4 {
 }
 .expertise {
 	padding-left:0px;
+	height: auto;
 }
 .expertise li {
 	height:15px;
@@ -124,16 +170,24 @@ h4 {
 	text-align: left;
 }
 .education {
-	height:400px;
-	background-color:darkgrey;
+	height:auto;
+	background-color:white;
+	padding-top:5px;
 }
 .references {
-	height:400px;
-	background-color:#E0DDDC;
+	height:auto;
+	background-color:white;
 }
+.references p {
+	text-align: center;
+	}
+	.white {
+		background:white;
+		height: 100px;
 
-
+	}
   @media screen and ( max-width:595px ) {
+}
 }
 body {
 	background:none;
